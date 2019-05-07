@@ -1,0 +1,34 @@
+{
+  "name": "bgr",
+  "version": "1.8.0",
+  "description": "Removes an image background",
+  "main": "bgr.js",
+  "scripts": {
+    "test": "./bgr.js -v"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arthurdapaz/bgr.git"
+  },
+  "dependencies": {
+    "cli-progress": "^2.1.1",
+    "fs": "",
+    "jimp": "^0.6.1",
+    "minimist": "^1.2.0",
+    "path": "",
+    "request": "^2.88.0"
+  },
+  "keywords": [
+    "remove.bg",
+    "background",
+    "image",
+    "opacity",
+    "extract"
+  ],
+  "author": "Arthur da Paz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/arthurdapaz/bgr/issues"
+  },
+  "homepage": "https://github.com/arthurdapaz/bgr#readme"
+}
