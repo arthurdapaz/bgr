@@ -40,7 +40,7 @@ var sintaxe = `
   obrigatório definir
   a chave da API:
 
-     > ${c.y}rbg.exe -k [AKI_KEY_REMOVE.BG]${c.z}
+     > ${c.y}bgr.exe -k [AKI_KEY_REMOVE.BG]${c.z}
 
   Opções:
      ${c.y}-v${c.z}	Exibe a versão atual
@@ -48,13 +48,13 @@ var sintaxe = `
      ${c.y}-K${c.z}	Exibe a chave da API atual
   
   Uso:
-     > ${c.y}rbg[.exe]${c.z} ${c._}c:\\exemplo\\arquivo.jpg${c.z}
+     > ${c.y}bgr[.exe]${c.z} ${c._}c:\\exemplo\\arquivo.jpg${c.z}
 
   Extensões permitidas:
      ${c.y}jpg${c.z} ou ${c.y}png${c.z}
 `
 
-var verstr = `Background Remover ${c.g}v${appver}${c.z} 2019.2.22, Arthur da Paz ${c._}ambrgo@gmail.com${c.z}`
+var verstr = `Background Remover ${c.g}v${appver}${c.z} 2019.5.7, Arthur da Paz ${c._}ambrgo@gmail.com${c.z}`
 
 var errstr = {
   'API_INDEFINIDA': `${erro}Informe a chave da API`,
